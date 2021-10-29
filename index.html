@@ -1,3 +1,5 @@
+<!doctype html>
+
 <html>
 
 <head>
@@ -17,11 +19,16 @@
 
         <div class="card-body">
             <div class="card-text">
-                <form id="form-view" onsubmit="return false">
-                    <button class="btn btn-primary" id="viewBtn" type="button">View All Employees</button>
+                <form id="form-view" >
+                    <button class="btn btn-primary"
+                            id="viewBtn" 
+                            type="button">View All Employees
+                    </button>
                 </form>
+                <div id="employeeData"></div>
             </div>
         </div>
+
 
         <div class="card-header ">  
             <h2>Add Employee Entry</h2>
@@ -72,7 +79,7 @@
 
 </body>
 
-<script type="text/javascript" src="sampleData.js"></script>
-<script type="text/javascript" src="app.js"></script>
+<script src="sampleData.js"></script>
+<script src="app.js"></script>
 
 </html>
