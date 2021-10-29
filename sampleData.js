@@ -1,6 +1,6 @@
-{
-    "sampleData";
-    [{
+
+console.log("sampleData.js")
+let employeeData =     [{
             "ninumber": "ZS502747A",
             "fullname": "Chris P Bacon",
             "phone": "07659-831024",
@@ -104,6 +104,6 @@
             "phone": "07958-301691",
             "address": "3 Third Mount",
             "department": "Sales"
-        }
-    ]
-}
+        }]
+
+        const obj = JSON.parse(employeeData)
